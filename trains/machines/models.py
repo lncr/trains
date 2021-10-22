@@ -2,4 +2,7 @@ from django.db import models
 
 
 class Machine(models.Model):
-    max_capacity = models.IntegerField()
+    """
+    Model for representing train machines.
+    """
+    max_capacity = models.IntegerField(help_text='Maximum amount of passengers machine can carry')
