@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'tickets',
     'directory',
     'machines',
+    'trips',
 ]
 
 MIDDLEWARE = [
